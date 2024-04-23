@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LogoComponent } from './components/logo/logo.component';
+import { NavItemComponent } from './components/nav-item/nav-item.component';
+import { CategoryComponent } from './components/category/category.component';
+import { QuizComponent } from './components/quiz/quiz.component';
 
 
 
@@ -11,6 +14,9 @@ import { LogoComponent } from './components/logo/logo.component';
     HeaderComponent,
     FooterComponent,
     LogoComponent,
+    NavItemComponent,
+    CategoryComponent,
+    QuizComponent,
   ],
   imports: [
     CommonModule
@@ -18,7 +24,9 @@ import { LogoComponent } from './components/logo/logo.component';
   exports:[
     HeaderComponent,
     FooterComponent,
-    LogoComponent
+    LogoComponent,
+    CategoryComponent,
+    QuizComponent,
   ]
 })
 export class CoreModule { }
