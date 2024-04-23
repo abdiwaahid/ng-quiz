@@ -3,8 +3,6 @@ import { LogoComponent } from '../logo/logo.component';
 
 @Component({
   selector: 'app-footer',
-  standalone: true,
-  imports: [LogoComponent],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })
